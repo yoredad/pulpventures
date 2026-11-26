@@ -1,0 +1,555 @@
+[
+  {
+    "id": 1,
+    "title": "The Two-Fisted Adventurer",
+    "description": "The quintessential pulp hero.",
+    "names": [
+      "Buck Blitz",
+      "Jack Steele",
+      "Rex Thunder"
+    ],
+    "traits": [
+      "Fearless",
+      "Athletic",
+      "Quick with both fists and guns",
+      "Always charging into danger"
+    ],
+    "catchphrase": "Looks like we're going in!",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero6.jpeg"
+    ],
+    "stats": {
+      "speed": 13,
+      "strength": 16,
+      "wits": 15,
+      "charm": 13,
+      "agility": 18,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Hard-Boiled Detective",
+    "description": "The king of crime pulp.",
+    "names": [
+      "Sam Spade",
+      "Frank Castle",
+      "Black Jack Justice"
+    ],
+    "traits": [
+      "Cynical",
+      "Smart",
+      "Tough as nails",
+      "Solves mysteries through grit"
+    ],
+    "catchphrase": "Something about this racket stinks.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero1.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 14,
+      "wits": 17,
+      "charm": 13,
+      "agility": 11,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 3,
+    "title": "The Masked Avenger",
+    "description": "A secret identity fights crime.",
+    "names": [
+      "The Shadow",
+      "Red Panda"
+    ],
+    "traits": [
+      "Operates outside the law",
+      "Uses fear against criminals",
+      "Secret headquarters"
+    ],
+    "catchphrase": "The guilty cannot hide forever.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero3.jpeg"
+    ],
+    "stats": {
+      "speed": 13,
+      "strength": 18,
+      "wits": 14,
+      "charm": 17,
+      "agility": 11,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 4,
+    "title": "The Soldier of Fortune",
+    "description": "A professional adventurer.",
+    "names": [
+      "Major Blake Donovan",
+      "Race Bannon",
+      "Dutch Rango"
+    ],
+    "traits": [
+      "Combat experience",
+      "Travels the globe",
+      "Takes dangerous jobs"
+    ],
+    "catchphrase": "Sounds like my kind of assignment.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero4.jpeg"
+    ],
+    "stats": {
+      "speed": 16,
+      "strength": 8,
+      "wits": 12,
+      "charm": 11,
+      "agility": 17,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 5,
+    "title": "The Ace Pilot",
+    "description": "Aviation pulps were huge in the 1940s.",
+    "names": [
+      "Ace Morgan",
+      "Johnny Falcon",
+      "Buzz Lightyear"
+    ],
+    "traits": [
+      "Daring",
+      "Mechanical knowledge",
+      "Lives for the sky"
+    ],
+    "catchphrase": "Fire up the engine!",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero5.jpeg"
+    ],
+    "stats": {
+      "speed": 18,
+      "strength": 16,
+      "wits": 17,
+      "charm": 16,
+      "agility": 12,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 6,
+    "title": "The Explorer",
+    "description": "The discoverer of lost civilizations.",
+    "names": [
+      "Indiana Jones",
+      "Rex Merriweather",
+      "Barnabus Smith"
+    ],
+    "traits": [
+      "Curious",
+      "Resourceful",
+      "Always has a map"
+    ],
+    "catchphrase": "We're close to the treasure.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero3.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 13,
+      "wits": 15,
+      "charm": 17,
+      "agility": 11,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 7,
+    "title": "The Gentleman Adventurer",
+    "description": "Equal parts scholar and hero.",
+    "names": [
+      "Sir Reginald Drake",
+      "Lord Adrian Blackwood"
+    ],
+    "traits": [
+      "Educated",
+      "Polite",
+      "Surprisingly dangerous"
+    ],
+    "catchphrase": "I believe we have a situation.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero2.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 6,
+      "wits": 15,
+      "charm": 17,
+      "agility": 12,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 8,
+    "title": "The Scientific Hero",
+    "description": "The heroic counterpart to the mad scientist.",
+    "names": [
+      "Dr. Victor Sterling",
+      "Professor Alan Pierce"
+    ],
+    "traits": [
+      "Brilliant",
+      "Uses technology for good",
+      "Rational thinker"
+    ],
+    "catchphrase": "I have a theory.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero6.jpeg"
+    ],
+    "stats": {
+      "speed": 13,
+      "strength": 14,
+      "wits": 14,
+      "charm": 12,
+      "agility": 13,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 9,
+    "title": "The Crusading Reporter",
+    "description": "Common in urban adventure pulps.",
+    "names": [
+      "Tommy Kane",
+      "Kent Justice"
+    ],
+    "traits": [
+      "Chases stories",
+      "Uncovers corruption",
+      "Always getting into trouble"
+    ],
+    "catchphrase": "This is front-page news!",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero2.jpeg"
+    ],
+    "stats": {
+      "speed": 18,
+      "strength": 10,
+      "wits": 14,
+      "charm": 13,
+      "agility": 12,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 10,
+    "title": "The G-Man",
+    "description": "The federal agent.",
+    "names": [
+      "Agent Frank Mercer",
+      "Agent Bill Conroy"
+    ],
+    "traits": [
+      "Honest",
+      "Methodical",
+      "Law-and-order focused"
+    ],
+    "catchphrase": "You're under arrest.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero1.jpeg"
+    ],
+    "stats": {
+      "speed": 13,
+      "strength": 16,
+      "wits": 11,
+      "charm": 15,
+      "agility": 12,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 11,
+    "title": "The Jungle Hero",
+    "description": "Master of the wilderness.",
+    "names": [
+      "Brock Hunter",
+      "Ty Rivers",
+      "Kraken Voynich"
+    ],
+    "traits": [
+      "Survival skills",
+      "Animal allies",
+      "Extraordinary strength"
+    ],
+    "catchphrase": "The jungle warned me.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero3.jpeg"
+    ],
+    "stats": {
+      "speed": 8,
+      "strength": 10,
+      "wits": 16,
+      "charm": 10,
+      "agility": 16,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 12,
+    "title": "The Western Marshal",
+    "description": "The frontier hero adapted into pulp.",
+    "names": [
+      "Marshal Jed Walker",
+      "Sheriff Cole Tanner",
+      "Sheriff Woody"
+    ],
+    "traits": [
+      "Strong moral code",
+      "Deadly aim",
+      "Defends the innocent"
+    ],
+    "catchphrase": "This town's had enough.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero3.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 14,
+      "wits": 14,
+      "charm": 15,
+      "agility": 16,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 13,
+    "title": "The Occult Investigator",
+    "description": "Battles supernatural evil.",
+    "names": [
+      "Dr. Simon Graves",
+      "James Kolshak"
+    ],
+    "traits": [
+      "Brave",
+      "Knowledgeable",
+      "Faces unimaginable horrors"
+    ],
+    "catchphrase": "Something unnatural is at work here.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero4.jpeg"
+    ],
+    "stats": {
+      "speed": 17,
+      "strength": 15,
+      "wits": 15,
+      "charm": 12,
+      "agility": 18,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 14,
+    "title": "The Amateur Hero",
+    "description": "An ordinary citizen thrust into adventure.",
+    "names": [
+      "Jimmy Parker",
+      "Johnny Utah"
+    ],
+    "traits": [
+      "Relatable",
+      "Improvisational",
+      "Grows into heroism"
+    ],
+    "catchphrase": "I guess it's up to us.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero1.jpeg"
+    ],
+    "stats": {
+      "speed": 18,
+      "strength": 15,
+      "wits": 12,
+      "charm": 17,
+      "agility": 12,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 15,
+    "title": "The Vigilante",
+    "description": "Operates beyond the law.",
+    "names": [
+      "The Midnight Guardian",
+      "The Silver Shadow"
+    ],
+    "traits": [
+      "Personal code",
+      "Relentless determination",
+      "Often haunted"
+    ],
+    "catchphrase": "Justice has arrived.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero1.jpeg"
+    ],
+    "stats": {
+      "speed": 13,
+      "strength": 16,
+      "wits": 12,
+      "charm": 18,
+      "agility": 10,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 16,
+    "title": "The Monster Hunter",
+    "description": "A specialist in unusual threats.",
+    "names": [
+      "Victor Van Helsing",
+      "Baboon McSmoothy",
+      "Kraven The Hunter"
+    ],
+    "traits": [
+      "Courageous",
+      "Well-armed",
+      "Expert tracker"
+    ],
+    "catchphrase": "I've faced worse.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero2.jpeg"
+    ],
+    "stats": {
+      "speed": 8,
+      "strength": 12,
+      "wits": 13,
+      "charm": 10,
+      "agility": 15,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 17,
+    "title": "Privateer",
+    "description": "Popular during WWII-era pulp.",
+    "names": [
+      "Commodore Blackhawk",
+      "Captain Marque",
+      "Admiral Bloodstone"
+    ],
+    "traits": [
+      "Tactical genius",
+      "Leadership",
+      "Calm under pressure"
+    ],
+    "catchphrase": "A privateer's luck never runs dry!",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero1.jpeg"
+    ],
+    "stats": {
+      "speed": 11,
+      "strength": 13,
+      "wits": 15,
+      "charm": 15,
+      "agility": 13,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 18,
+    "title": "The Resistance Fighter",
+    "description": "The underdog hero.",
+    "names": [
+      "Pierre Renault",
+      "Ethan Varga"
+    ],
+    "traits": [
+      "Resourceful",
+      "Patriotic",
+      "Defiant"
+    ],
+    "catchphrase": "They'll never break us.",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero5.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 10,
+      "wits": 18,
+      "charm": 8,
+      "agility": 15,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 19,
+    "title": "The Strongman Hero",
+    "description": "The human powerhouse.",
+    "names": [
+      "Titan Tom Barnes",
+      "Big Mike Malone",
+      "B.A. Bracus"
+    ],
+    "traits": [
+      "Great strength",
+      "Good-hearted",
+      "Charges into danger"
+    ],
+    "catchphrase": "Stand back!",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero4.jpeg"
+    ],
+    "stats": {
+      "speed": 11,
+      "strength": 12,
+      "wits": 12,
+      "charm": 13,
+      "agility": 13,
+      "health": 10,
+      "luck": 18
+    }
+  },
+  {
+    "id": 20,
+    "title": "The Team Leader",
+    "description": "The Doc Savage archetype.",
+    "names": [
+      "Doc Savage",
+      "Hannibal Smith",
+      "Subaru Samurai"
+    ],
+    "traits": [
+      "Exceptional at everything",
+      "Inspires loyal companions",
+      "Natural leader"
+    ],
+    "catchphrase": "I love it when a plan comes together!",
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\heroes\\hero5.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 15,
+      "wits": 16,
+      "charm": 12,
+      "agility": 12,
+      "health": 10,
+      "luck": 18
+    }
+  }
+]

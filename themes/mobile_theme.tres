@@ -1,0 +1,146 @@
+[gd_resource type="Theme" load_steps=8 format=3]
+
+[sub_resource type="StyleBoxFlat" id="CutscenePanelStyle"]
+content_margin_left = 56.0
+content_margin_top = 48.0
+content_margin_right = 56.0
+content_margin_bottom = 48.0
+bg_color = Color(0.1412, 0.102, 0.0745, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8275, 0.6588, 0.302, 0.55)
+corner_radius_top_left = 32
+corner_radius_top_right = 32
+corner_radius_bottom_right = 32
+corner_radius_bottom_left = 32
+
+[sub_resource type="StyleBoxFlat" id="GamePanelStyle"]
+content_margin_left = 56.0
+content_margin_top = 40.0
+content_margin_right = 56.0
+content_margin_bottom = 40.0
+bg_color = Color(0.0863, 0.0706, 0.0588, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8275, 0.6588, 0.302, 0.35)
+corner_radius_top_left = 32
+corner_radius_top_right = 32
+corner_radius_bottom_right = 32
+corner_radius_bottom_left = 32
+
+[sub_resource type="StyleBoxFlat" id="ButtonNormal"]
+content_margin_left = 48.0
+content_margin_top = 28.0
+content_margin_right = 48.0
+content_margin_bottom = 28.0
+bg_color = Color(0.2902, 0.2, 0.1098, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8275, 0.6588, 0.302, 0.55)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="ButtonHover"]
+content_margin_left = 48.0
+content_margin_top = 28.0
+content_margin_right = 48.0
+content_margin_bottom = 28.0
+bg_color = Color(0.3961, 0.2824, 0.1569, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8275, 0.6588, 0.302, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="ButtonPressed"]
+content_margin_left = 48.0
+content_margin_top = 28.0
+content_margin_right = 48.0
+content_margin_bottom = 28.0
+bg_color = Color(0.2078, 0.1373, 0.0745, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8275, 0.6588, 0.302, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="ButtonDisabled"]
+content_margin_left = 48.0
+content_margin_top = 28.0
+content_margin_right = 48.0
+content_margin_bottom = 28.0
+bg_color = Color(0.149, 0.1176, 0.0941, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.4863, 0.4157, 0.3216, 0.5)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="ButtonFocus"]
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.8275, 0.6588, 0.302, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[resource]
+default_font_size = 30
+BodyLabel/base_type = &"Label"
+BodyLabel/colors/font_color = Color(0.9412, 0.898, 0.7882, 1)
+BodyLabel/font_sizes/font_size = 34
+Button/colors/font_color = Color(0.9608, 0.9176, 0.8157, 1)
+Button/colors/font_disabled_color = Color(0.4863, 0.4157, 0.3216, 1)
+Button/colors/font_focus_color = Color(1, 0.9451, 0.7843, 1)
+Button/colors/font_hover_color = Color(1, 0.9451, 0.7843, 1)
+Button/colors/font_pressed_color = Color(1, 0.9451, 0.7843, 1)
+Button/font_sizes/font_size = 38
+Button/styles/disabled = SubResource("ButtonDisabled")
+Button/styles/focus = SubResource("ButtonFocus")
+Button/styles/hover = SubResource("ButtonHover")
+Button/styles/normal = SubResource("ButtonNormal")
+Button/styles/pressed = SubResource("ButtonPressed")
+CutscenePanel/base_type = &"PanelContainer"
+CutscenePanel/styles/panel = SubResource("CutscenePanelStyle")
+GamePanel/base_type = &"PanelContainer"
+GamePanel/styles/panel = SubResource("GamePanelStyle")
+HintLabel/base_type = &"Label"
+HintLabel/colors/font_color = Color(0.6667, 0.6039, 0.5098, 1)
+HintLabel/font_sizes/font_size = 30
+Label/colors/font_color = Color(0.9412, 0.898, 0.7882, 1)
+Label/font_sizes/font_size = 32
+PhaseLabel/base_type = &"Label"
+PhaseLabel/colors/font_color = Color(0.8275, 0.6588, 0.302, 1)
+PhaseLabel/font_sizes/font_size = 30
+SectionLabel/base_type = &"Label"
+SectionLabel/colors/font_color = Color(0.8275, 0.6588, 0.302, 1)
+SectionLabel/font_sizes/font_size = 48
+SubtitleLabel/base_type = &"Label"
+SubtitleLabel/colors/font_color = Color(0.8275, 0.6588, 0.302, 1)
+SubtitleLabel/font_sizes/font_size = 36
+TitleLabel/base_type = &"Label"
+TitleLabel/colors/font_color = Color(0.9412, 0.898, 0.7882, 1)
+TitleLabel/font_sizes/font_size = 92

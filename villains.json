@@ -1,0 +1,739 @@
+[
+  {
+    "id": 1,
+    "title": "The Criminal Mastermind",
+    "names": [
+      "Dr. Vexor",
+      "The Crimson Brain",
+      "Victor Mordane",
+      "The Spider King"
+    ],
+    "monologue": "At last, every bank, shipping line, and police commissioner in this city dances to my tune! By sunrise, my syndicate will control every dollar that changes hands. You thought you were chasing a gang of thieves. You've been battling an empire!",
+    "henchmanTitle": "Chief Agent",
+    "henchman": "Raven Black",
+    "praise": "The boss sees ten moves ahead. The rest of us are still studying the board.",
+    "thugs": [
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "strongman",
+      "catwoman",
+      "soldierm",
+      "soldierf"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain9.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 18,
+      "wits": 14,
+      "charm": 11,
+      "agility": 15,
+      "health": 10
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Mad Scientist",
+    "names": [
+      "Dr. Inferno",
+      "Dr. Mortis",
+      "Dr. Volt",
+      "Dr. Radium"
+    ],
+    "monologue": "Behold my Atmospheric Disruptor! A single pull of this switch and storms shall obey my command. Nations will beg for clear skies and fear my hurricanes. Science has given me the power of a god!",
+    "henchmanTitle": "First Assistant",
+    "henchman": "Igor Watts",
+    "praise": "The doctor's genius will reshape the world itself!",
+    "thugs": [
+      "goth",
+      "thief",
+      "mechanic",
+      "lab assistant",
+      "strongman",
+      "catwoman",
+      "robot",
+      "gorilla"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain3.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain10.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 13,
+      "wits": 11,
+      "charm": 12,
+      "agility": 14,
+      "health": 10
+    }
+  },
+  {
+    "id": 3,
+    "title": "The Foreign Spy",
+    "names": [
+      "Templeton Peck",
+      "Ivan Volkov",
+      "Colonel Krieger"
+    ],
+    "monologue": "The blueprints are already aboard my submarine. By the time your government realizes what has happened, their secrets will belong to my homeland. You arrived too late, my friend.",
+    "henchmanTitle": "Field Operative",
+    "henchman": "Viktor Stahl",
+    "praise": "The boss never misses a secret and never forgets a face.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "soldierm",
+      "soldierf",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain9.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain2.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain3.jpeg"
+    ],
+    "stats": {
+      "speed": 18,
+      "strength": 14,
+      "wits": 16,
+      "charm": 10,
+      "agility": 13,
+      "health": 10
+    }
+  },
+  {
+    "id": 4,
+    "title": "The Crime Boss",
+    "names": [
+      "Big Lou Marconi",
+      "Dutch Malone",
+      "King Rocco",
+      "Marcus \"Knuckles\" Moran"
+    ],
+    "monologue": "This city belongs to me. The docks, the unions, the nightclubs, even the judges. Tomorrow every honest businessman will pay tribute or find himself ruined. That's not crime. That's organization.",
+    "henchmanTitle": "First Lieutenant",
+    "henchman": "Crusher Kane",
+    "praise": "Nobody owns this city but the boss.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "strongman",
+      "catwoman"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain2.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 18,
+      "wits": 11,
+      "charm": 13,
+      "agility": 17,
+      "health": 10
+    }
+  },
+  {
+    "id": 5,
+    "title": "The Masked Nemesis",
+    "names": [
+      "The Black Cobra",
+      "The Iron Phantom",
+      "The Red Specter",
+      "The Night Vulture"
+    ],
+    "monologue": "For years they celebrated you while ignoring me. Tonight they will learn which of us deserves to wear the mask. My reign begins the moment yours ends.",
+    "henchmanTitle": "Shadow Lieutenant",
+    "henchman": "Snake Devlin",
+    "praise": "The master is always watching.",
+    "thugs": [
+      "goth",
+      "thief",
+      "strongman",
+      "catwoman",
+      "ninja",
+      "pirate",
+      "robot",
+      "gorilla"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain2.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain7.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg"
+    ],
+    "stats": {
+      "speed": 14,
+      "strength": 15,
+      "wits": 10,
+      "charm": 16,
+      "agility": 15,
+      "health": 10
+    }
+  },
+  {
+    "id": 6,
+    "title": "The Evil Aristocrat",
+    "names": [
+      "Baron Von Grimm",
+      "Count Blackmoor",
+      "Lord Ravenscroft",
+      "Duke Malvoisin"
+    ],
+    "monologue": "These peasants never appreciated the privilege of serving their betters. With my fortune and private army, this county shall become my kingdom. The age of democracy is over.",
+    "henchmanTitle": "Butler Major-Domo",
+    "henchman": "Jeeves",
+    "praise": "His lordship's vision is far beyond ordinary men.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "soldierm",
+      "soldierf"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain3.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 8,
+      "wits": 16,
+      "charm": 13,
+      "agility": 13,
+      "health": 10
+    }
+  },
+  {
+    "id": 7,
+    "title": "The Cult Leader",
+    "names": [
+      "The Golden Prophet",
+      "High Priest Nakar",
+      "Brother Obsidian",
+      "The Veiled Oracle"
+    ],
+    "monologue": "Soon the faithful will rise from every corner of the world. Governments will crumble beneath their devotion. They seek truth, and I shall provide it... for a price.",
+    "henchmanTitle": "High Disciple",
+    "henchman": "Brother Thorne",
+    "praise": "The Prophet's wisdom lights our path.",
+    "thugs": [
+      "goth",
+      "thief",
+      "cultistm",
+      "cultistf",
+      "strongman",
+      "catwoman",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain9.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 13,
+      "wits": 8,
+      "charm": 15,
+      "agility": 10,
+      "health": 10
+    }
+  },
+  {
+    "id": 8,
+    "title": "The Pirate King",
+    "names": [
+      "Captain Bloodhawk",
+      "Captain Black Jack Vargo",
+      "The Corsair King",
+      "Captain Red Morgan"
+    ],
+    "monologue": "Every cargo ship crossing these waters pays my tax. Refuse and they disappear beneath the waves. Before long, world commerce itself will bend its knee to me!",
+    "henchmanTitle": "First Mate",
+    "henchman": "Blackwater Pete",
+    "praise": "The captain's flag rules every sea.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "strongman",
+      "catwoman",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain2.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain1.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain10.jpeg"
+    ],
+    "stats": {
+      "speed": 16,
+      "strength": 14,
+      "wits": 13,
+      "charm": 13,
+      "agility": 12,
+      "health": 10
+    }
+  },
+  {
+    "id": 9,
+    "title": "The Geneticist",
+    "names": [
+      "Dr. Mureau",
+      "The Ape King",
+      "Professor Fang"
+    ],
+    "monologue": "My creatures are merely the first generation. Imagine an army of beasts obeying every whim. Cities will empty at their approach, and I alone shall hold the leash.",
+    "henchmanTitle": "Beast Keeper",
+    "henchman": "Bruno Kreel",
+    "praise": "The creatures obey only the master.",
+    "thugs": [
+      "goth",
+      "thief",
+      "mechanic",
+      "lab assistant",
+      "strongman",
+      "catwoman",
+      "robot",
+      "gorilla"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain3.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain1.jpeg"
+    ],
+    "stats": {
+      "speed": 10,
+      "strength": 15,
+      "wits": 12,
+      "charm": 13,
+      "agility": 14,
+      "health": 10
+    }
+  },
+  {
+    "id": 10,
+    "title": "The Corrupt Business Tycoon",
+    "names": [
+      "Horace Blackwell",
+      "Maxwell Sterling",
+      "Victor Crowley",
+      "Silas Gage"
+    ],
+    "monologue": "Factories, railroads, newspapers. I've bought them all. Once I corner the market, citizens will pay whatever I demand. Wealth is power, and power belongs to those willing to seize it.",
+    "henchmanTitle": "Executive Secretary",
+    "henchman": "Mr. Finch",
+    "praise": "The boss owns tomorrow before it arrives.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "soldierm",
+      "soldierf"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain1.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg"
+    ],
+    "stats": {
+      "speed": 13,
+      "strength": 14,
+      "wits": 11,
+      "charm": 16,
+      "agility": 9,
+      "health": 10
+    }
+  },
+  {
+    "id": 11,
+    "title": "The Rival Ace",
+    "names": [
+      "Baron Blitz",
+      "Howling Mad Murdock",
+      "Captain Voss",
+      "The Crimson Falcon"
+    ],
+    "monologue": "The skies are too small for the both of us. Once my aircraft squadron destroys every rival pilot, the world will remember only one flying legend: me.",
+    "henchmanTitle": "Wing Commander",
+    "henchman": "Red Griffin",
+    "praise": "No pilot alive can match his skill.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "soldierm",
+      "soldierf"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain2.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg"
+    ],
+    "stats": {
+      "speed": 10,
+      "strength": 11,
+      "wits": 13,
+      "charm": 17,
+      "agility": 11,
+      "health": 10
+    }
+  },
+  {
+    "id": 12,
+    "title": "The Sadistic Enforcer",
+    "names": [
+      "Crusher Kane",
+      "Bull Brogan",
+      "Iron Mike Doyle",
+      "Slugger Malone"
+    ],
+    "monologue": "The boss talks about money. Me? I enjoy the fear. Once we take over this town, everyone will know my name and tremble when they hear it.",
+    "henchmanTitle": "Chief Bruiser",
+    "henchman": "Slugger Malone",
+    "praise": "The master's triumph is inevitable.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "strongman",
+      "catwoman"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain1.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain6.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain10.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 12,
+      "wits": 16,
+      "charm": 16,
+      "agility": 14,
+      "health": 10
+    }
+  },
+  {
+    "id": 13,
+    "title": "The Femme Fatale",
+    "names": [
+      "Velvet Vane",
+      "Scarlet Devereaux",
+      "Lola Noir",
+      "Raven Lux"
+    ],
+    "monologue": "Poor fools. They mistook charm for affection and secrets for trust. By midnight I'll possess enough blackmail material to control senators, generals, and kings.",
+    "henchmanTitle": "Personal Bodyguard",
+    "henchman": "The Giant",
+    "praise": "She gets whatever and whoever she wants.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "strongman",
+      "catwoman",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain2.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain3.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg"
+    ],
+    "stats": {
+      "speed": 12,
+      "strength": 15,
+      "wits": 16,
+      "charm": 14,
+      "agility": 12,
+      "health": 10
+    }
+  },
+  {
+    "id": 14,
+    "title": "The Corrupt Official",
+    "names": [
+      "Mayor Black",
+      "Commissioner Graves",
+      "Judge Crowe",
+      "Senator Voss"
+    ],
+    "monologue": "The law is whatever I say it is. My opponents are arrested, my allies are protected, and the voters hear only what I permit. Soon no one will remember there was ever a choice.",
+    "henchmanTitle": "Deputy Commissioner",
+    "henchman": "Detective Slater",
+    "praise": "The boss always lands on top.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "mechanic",
+      "lab assistant",
+      "soldierm",
+      "soldierf"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain1.jpeg"
+    ],
+    "stats": {
+      "speed": 14,
+      "strength": 14,
+      "wits": 18,
+      "charm": 13,
+      "agility": 9,
+      "health": 10
+    }
+  },
+  {
+    "id": 15,
+    "title": "The Conqueror",
+    "names": [
+      "Emperor Zorak",
+      "Pharaoh Kazaam",
+      "Emperor Khan Vorga"
+    ],
+    "monologue": "See those troops assembling below? By next month every neighboring nation will fly my banner. History does not remember the meek. It remembers those bold enough to take what they desire.",
+    "henchmanTitle": "Grand Marshal",
+    "henchman": "General Krull",
+    "praise": "Our leader was born to rule nations.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "soldierm",
+      "soldierf",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain7.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain9.jpeg"
+    ],
+    "stats": {
+      "speed": 14,
+      "strength": 14,
+      "wits": 15,
+      "charm": 15,
+      "agility": 12,
+      "health": 10
+    }
+  },
+  {
+    "id": 16,
+    "title": "The Occult Master",
+    "names": [
+      "The Shadow Pharaoh",
+      "Dr. Necros",
+      "Malakar the Mystic",
+      "The Black Magus"
+    ],
+    "monologue": "The ancient rites are complete. The veil between worlds grows thin. Soon powers forgotten by mankind will answer only to me, and all who mocked my studies will kneel in terror.",
+    "henchmanTitle": "High Priest",
+    "henchman": "Nakar the Devoted",
+    "praise": "Master commands powers older than history.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "cultistm",
+      "cultistf",
+      "strongman",
+      "catwoman"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain6.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg"
+    ],
+    "stats": {
+      "speed": 16,
+      "strength": 12,
+      "wits": 13,
+      "charm": 16,
+      "agility": 16,
+      "health": 10
+    }
+  },
+  {
+    "id": 17,
+    "title": "The Gentleman Thief",
+    "names": [
+      "Sebastian Black",
+      "The Silver Jackal",
+      "Adrian Vale",
+      "The Velvet Fox"
+    ],
+    "monologue": "The crown jewels, the royal bonds, and the governor's private safe. All stolen without a single alarm. Crime is an art, my dear fellow, and tonight I unveil my masterpiece.",
+    "henchmanTitle": "Master Accomplice",
+    "henchman": "Felix Sharp",
+    "praise": "The chief could steal the moon if he fancied it.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "strongman",
+      "catwoman",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain6.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain9.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain4.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 17,
+      "wits": 16,
+      "charm": 8,
+      "agility": 17,
+      "health": 10
+    }
+  },
+  {
+    "id": 18,
+    "title": "The Twisted Inventor",
+    "names": [
+      "Dr. Gearheart",
+      "Professor Ironhand",
+      "The Machine Master",
+      "Cyrus Cogwell"
+    ],
+    "monologue": "My automatons need no sleep, no food, and ask no questions. Once the factories begin producing them by the thousands, humanity will become obsolete.",
+    "henchmanTitle": "Chief Engineer",
+    "henchman": "Cyrus Coggs",
+    "praise": "Master's machines are perfection itself.",
+    "thugs": [
+      "goth",
+      "thief",
+      "mechanic",
+      "lab assistant",
+      "strongman",
+      "catwoman",
+      "robot",
+      "gorilla"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain1.jpeg"
+    ],
+    "stats": {
+      "speed": 14,
+      "strength": 14,
+      "wits": 16,
+      "charm": 5,
+      "agility": 16,
+      "health": 10
+    }
+  },
+  {
+    "id": 19,
+    "title": "The Ruthless Explorer",
+    "names": [
+      "Rex Hawthorne",
+      "Dirk Blackwood",
+      "Captain Flint Mercer",
+      "Victor Drake"
+    ],
+    "monologue": "Beyond this temple lies a treasure greater than any empire's fortune. My expedition believes we're partners. In truth, they're merely expendable tools standing between me and destiny.",
+    "henchmanTitle": "Expedition Foreman",
+    "henchman": "Rex Cutter",
+    "praise": "The boss always finds the treasure, no matter the cost.",
+    "thugs": [
+      "goth",
+      "thief",
+      "gypsy",
+      "goon",
+      "soldierm",
+      "soldierf",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain5.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain10.jpeg"
+    ],
+    "stats": {
+      "speed": 15,
+      "strength": 15,
+      "wits": 10,
+      "charm": 13,
+      "agility": 15,
+      "health": 10
+    }
+  },
+  {
+    "id": 20,
+    "title": "The Shadowy Society",
+    "names": [
+      "The Hidden Regent",
+      "Master Zero",
+      "The Gray Cardinal",
+      "The Red Specter"
+    ],
+    "monologue": "For centuries we have guided kings, toppled governments, and directed the course of history from the shadows. Tonight we take the final step. The world will never know who truly rules it.",
+    "henchmanTitle": "Inner Circle Director",
+    "henchman": "Agent Null",
+    "praise": "Master has guided history for generations.",
+    "thugs": [
+      "goth",
+      "thief",
+      "cultistm",
+      "cultistf",
+      "strongman",
+      "catwoman",
+      "ninja",
+      "pirate"
+    ],
+    "portraits": [
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain7.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain8.jpeg",
+      "C:\\Users\\YoreDad\\Projects\\godot\\pulpventures\\assets\\villains\\villain11.jpeg"
+    ],
+    "stats": {
+      "speed": 17,
+      "strength": 17,
+      "wits": 15,
+      "charm": 14,
+      "agility": 14,
+      "health": 10
+    }
+  }
+]
