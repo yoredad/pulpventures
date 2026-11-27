@@ -1,0 +1,119 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/character_about_modal.gd" id="1_modal"]
+[ext_resource type="Texture2D" path="res://assets/buttons/button_reroll.jpg" id="2_reroll"]
+[ext_resource type="Texture2D" path="res://assets/buttons/button_back.jpg" id="3_back"]
+
+[sub_resource type="StyleBoxFlat" id="ModalPanelStyle"]
+bg_color = Color(0.0863, 0.0706, 0.0588, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8275, 0.6588, 0.302, 0.55)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[node name="CharacterAboutModal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_modal")
+
+[node name="Dimmer" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.75)
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -1000.0
+offset_right = 480.0
+offset_bottom = 1000.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("ModalPanelStyle")
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 40
+
+[node name="Layout" type="VBoxContainer" parent="Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Portrait" type="TextureRect" parent="Panel/Margin/Layout"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(420, 428)
+layout_mode = 2
+size_flags_horizontal = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CharacterNameLabel" type="Label" parent="Panel/Margin/Layout"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="TitleLabel" type="Label" parent="Panel/Margin/Layout"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8275, 0.6588, 0.302, 1)
+theme_override_font_sizes/font_size = 36
+horizontal_alignment = 1
+
+[node name="DetailsScroll" type="ScrollContainer" parent="Panel/Margin/Layout"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="DetailsLabel" type="RichTextLabel" parent="Panel/Margin/Layout/DetailsScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/normal_font_size = 30
+theme_override_font_sizes/bold_font_size = 30
+bbcode_enabled = true
+fit_content = true
+scroll_active = false
+
+[node name="Buttons" type="HBoxContainer" parent="Panel/Margin/Layout"]
+layout_mode = 2
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="RerollButton" type="TextureButton" parent="Panel/Margin/Layout/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+texture_normal = ExtResource("2_reroll")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="BackButton" type="TextureButton" parent="Panel/Margin/Layout/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+texture_normal = ExtResource("3_back")
+ignore_texture_size = true
+stretch_mode = 0

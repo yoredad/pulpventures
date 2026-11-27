@@ -34,7 +34,44 @@ func _load_json_array(path: String) -> Array:
 
 
 func select_random_encounter() -> void:
-	if not _villains.is_empty():
-		villain = _villains.pick_random()
-	if not _heroes.is_empty():
-		hero = _heroes.pick_random()
+	villain = _create_character(_villains)
+	hero = _create_character(_heroes)
+
+
+func _create_character(pool: Array) -> Dictionary:
+	if pool.is_empty():
+		return {}
+	var character: Dictionary = (pool.pick_random() as Dictionary).duplicate(true)
+	var names: Array = character.get("names", [])
+	var portraits: Array = character.get("portraits", [])
+	character["name"] = names.pick_random() if not names.is_empty() else ""
+	character["portrait"] = portraits.pick_random() if not portraits.is_empty() else ""
+	return character
+
+
+func reroll_stats(character_type: String) -> void:
+	var character: Dictionary = hero if character_type == "hero" else villain
+	if character.is_empty():
+		return
+	var stats: Dictionary = character.get("stats", {})
+	for stat_name in stats.keys():
+		if stat_name == "health":
+			continue
+		stats[stat_name] = _roll_highest_three_of_five() if character_type == "hero" else _roll_three_d6()
+	stats["health"] = 10
+	character["stats"] = stats
+
+
+func _roll_highest_three_of_five() -> int:
+	var rolls: Array[int] = []
+	for _die in 5:
+		rolls.append(randi_range(1, 6))
+	rolls.sort()
+	return rolls[2] + rolls[3] + rolls[4]
+
+
+func _roll_three_d6() -> int:
+	var total := 0
+	for _die in 3:
+		total += randi_range(1, 6)
+	return total

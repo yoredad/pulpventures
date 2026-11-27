@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3]
+[gd_scene load_steps=10 format=3]
 
 [ext_resource type="Script" path="res://scripts/mini_games_screen.gd" id="1_mini"]
 [ext_resource type="Texture2D" path="res://assets/buttons/button_evade.jpg" id="2_evade"]
@@ -7,6 +7,23 @@
 [ext_resource type="Texture2D" path="res://assets/buttons/button_outwit.jpg" id="5_outwit"]
 [ext_resource type="Texture2D" path="res://assets/buttons/button_seduce.jpg" id="6_seduce"]
 [ext_resource type="Texture2D" path="res://assets/buttons/button_back.jpg" id="7_back"]
+[ext_resource type="Texture2D" path="res://assets/buttons/button_about.jpg" id="8_about"]
+
+[sub_resource type="StyleBoxFlat" id="MessageStyle"]
+content_margin_left = 16.0
+content_margin_top = 8.0
+content_margin_right = 16.0
+content_margin_bottom = 8.0
+bg_color = Color(0.0863, 0.0706, 0.0588, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8275, 0.6588, 0.302, 0.35)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
 
 [node name="MiniGamesScreen" type="Control"]
 layout_mode = 3
@@ -25,6 +42,84 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
+
+[node name="TopPanel" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 300.0
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 0
+
+[node name="Rows" type="VBoxContainer" parent="TopPanel"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="HeroRow" type="HBoxContainer" parent="TopPanel/Rows"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="HeroLabel" type="Label" parent="TopPanel/Rows/HeroRow"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "HERO:"
+vertical_alignment = 1
+
+[node name="HeroNameLabel" type="Label" parent="TopPanel/Rows/HeroRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+vertical_alignment = 1
+
+[node name="HeroAboutButton" type="TextureButton" parent="TopPanel/Rows/HeroRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+texture_normal = ExtResource("8_about")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="VillainRow" type="HBoxContainer" parent="TopPanel/Rows"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="VillainLabel" type="Label" parent="TopPanel/Rows/VillainRow"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "VILLAIN:"
+vertical_alignment = 1
+
+[node name="VillainNameLabel" type="Label" parent="TopPanel/Rows/VillainRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 40
+vertical_alignment = 1
+
+[node name="VillainAboutButton" type="TextureButton" parent="TopPanel/Rows/VillainRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+texture_normal = ExtResource("8_about")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="MessageRow" type="MarginContainer" parent="TopPanel/Rows"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="MessageArea" type="RichTextLabel" parent="TopPanel/Rows/MessageRow"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 34
+theme_override_styles/normal = SubResource("MessageStyle")
+bbcode_enabled = true
+scroll_active = true
+scroll_following = true
 
 [node name="GameButtons" type="VBoxContainer" parent="."]
 layout_mode = 1

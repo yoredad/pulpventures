@@ -1,0 +1,343 @@
+[gd_scene load_steps=14 format=3]
+
+[ext_resource type="Script" path="res://scripts/outwit.gd" id="1_outwit"]
+[ext_resource type="Texture2D" path="res://assets/special/outwit.jpg" id="2_outwit_image"]
+[ext_resource type="Texture2D" path="res://assets/buttons/button_play.jpg" id="3_play"]
+[ext_resource type="Texture2D" path="res://assets/buttons/button_back.jpg" id="4_back"]
+[ext_resource type="Texture2D" path="res://assets/buttons/button_about.jpg" id="5_about"]
+[ext_resource type="Texture2D" path="res://assets/buttons/gun.jpg" id="6_gun"]
+[ext_resource type="Texture2D" path="res://assets/buttons/sword.jpg" id="7_sword"]
+[ext_resource type="Texture2D" path="res://assets/buttons/crowbar.jpg" id="8_crowbar"]
+[ext_resource type="Texture2D" path="res://assets/buttons/knife.jpg" id="9_knife"]
+[ext_resource type="Texture2D" path="res://assets/buttons/bomb.jpg" id="10_bomb"]
+
+[sub_resource type="StyleBoxFlat" id="MessageStyle"]
+content_margin_left = 24.0
+content_margin_top = 6.0
+content_margin_right = 24.0
+content_margin_bottom = 6.0
+bg_color = Color(0.0863, 0.0706, 0.0588, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8275, 0.6588, 0.302, 0.35)
+
+[sub_resource type="StyleBoxFlat" id="MatStyle"]
+bg_color = Color(0.0784, 0.2588, 0.1294, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.8275, 0.6588, 0.302, 0.25)
+
+[sub_resource type="StyleBoxFlat" id="AboutPanelStyle"]
+bg_color = Color(0.0863, 0.0706, 0.0588, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8275, 0.6588, 0.302, 0.55)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[node name="Outwit" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+z_index = 100
+mouse_filter = 0
+script = ExtResource("1_outwit")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="InitialView" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="IntroImage" type="TextureRect" parent="InitialView"]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 1100.0
+texture = ExtResource("2_outwit_image")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="BottomPanel" type="Control" parent="InitialView"]
+layout_mode = 0
+offset_top = 1200.0
+offset_right = 1080.0
+offset_bottom = 2400.0
+
+[node name="InitialButtons" type="VBoxContainer" parent="InitialView/BottomPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -160.0
+offset_right = 100.0
+offset_bottom = 160.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="PlayButton" type="TextureButton" parent="InitialView/BottomPanel/InitialButtons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("3_play")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="InitialBackButton" type="TextureButton" parent="InitialView/BottomPanel/InitialButtons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("4_back")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="AboutButton" type="TextureButton" parent="InitialView/BottomPanel/InitialButtons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("5_about")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="MessageArea" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_top = 1100.0
+offset_right = 1080.0
+offset_bottom = 1200.0
+theme_override_styles/panel = SubResource("MessageStyle")
+
+[node name="MessageLabel" type="Label" parent="MessageArea"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MatchView" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VillainPortrait" type="TextureRect" parent="MatchView"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 1100.0
+expand_mode = 1
+stretch_mode = 0
+
+[node name="PlayMat" type="Panel" parent="MatchView"]
+layout_mode = 0
+offset_top = 1200.0
+offset_right = 1080.0
+offset_bottom = 2300.0
+theme_override_styles/panel = SubResource("MatStyle")
+
+[node name="Scores" type="VBoxContainer" parent="MatchView/PlayMat"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 30.0
+offset_right = 440.0
+offset_bottom = 160.0
+theme_override_constants/separation = 0
+
+[node name="HeroScoreLabel" type="Label" parent="MatchView/PlayMat/Scores"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.9, 0.75, 1)
+theme_override_font_sizes/font_size = 44
+text = "HERO: 0"
+
+[node name="VillainScoreLabel" type="Label" parent="MatchView/PlayMat/Scores"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.9, 0.75, 1)
+theme_override_font_sizes/font_size = 44
+text = "VILLAIN: 0"
+
+[node name="WitsPlusLabel" type="Label" parent="MatchView/PlayMat"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 920.0
+offset_top = 20.0
+offset_right = 1040.0
+offset_bottom = 140.0
+theme_override_colors/font_color = Color(0.8275, 0.6588, 0.302, 1)
+theme_override_font_sizes/font_size = 96
+text = "+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VillainWeaponIcon" type="TextureRect" parent="MatchView/PlayMat"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 140.0
+offset_top = 400.0
+offset_right = 440.0
+offset_bottom = 700.0
+expand_mode = 1
+stretch_mode = 4
+
+[node name="PlayerWeaponIcon" type="TextureRect" parent="MatchView/PlayMat"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 640.0
+offset_top = 400.0
+offset_right = 940.0
+offset_bottom = 700.0
+expand_mode = 1
+stretch_mode = 4
+
+[node name="WeaponRow" type="HBoxContainer" parent="MatchView"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_top = 2300.0
+offset_right = 1080.0
+offset_bottom = 2400.0
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="GunButton" type="TextureButton" parent="MatchView/WeaponRow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("6_gun")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="SwordButton" type="TextureButton" parent="MatchView/WeaponRow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("7_sword")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="CrowbarButton" type="TextureButton" parent="MatchView/WeaponRow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("8_crowbar")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="KnifeButton" type="TextureButton" parent="MatchView/WeaponRow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("9_knife")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="BombButton" type="TextureButton" parent="MatchView/WeaponRow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("10_bomb")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="AboutModal" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dimmer" type="ColorRect" parent="AboutModal"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.8)
+
+[node name="AboutPanel" type="PanelContainer" parent="AboutModal"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -440.0
+offset_top = -600.0
+offset_right = 440.0
+offset_bottom = 600.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("AboutPanelStyle")
+
+[node name="Margin" type="MarginContainer" parent="AboutModal/AboutPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 40
+
+[node name="Layout" type="VBoxContainer" parent="AboutModal/AboutPanel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Title" type="Label" parent="AboutModal/AboutPanel/Margin/Layout"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8275, 0.6588, 0.302, 1)
+theme_override_font_sizes/font_size = 56
+text = "WEAPON GUIDE"
+horizontal_alignment = 1
+
+[node name="AboutDetails" type="RichTextLabel" parent="AboutModal/AboutPanel/Margin/Layout"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/normal_font_size = 34
+theme_override_font_sizes/bold_font_size = 34
+bbcode_enabled = true
+fit_content = true
+scroll_active = false
+
+[node name="AboutBackButton" type="TextureButton" parent="AboutModal/AboutPanel/Margin/Layout"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("4_back")
+ignore_texture_size = true
+stretch_mode = 0

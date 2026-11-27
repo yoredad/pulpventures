@@ -1,11 +1,11 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene format=3 uid="uid://bq8bolrd7g8tq"]
 
-[ext_resource type="Script" path="res://scripts/start_screen.gd" id="1_start"]
-[ext_resource type="Texture2D" path="res://assets/splash/splash.jpg" id="2_splash"]
-[ext_resource type="Texture2D" path="res://assets/buttons/button_play.jpg" id="3_play"]
-[ext_resource type="Texture2D" path="res://assets/buttons/button_quit.jpg" id="4_quit"]
+[ext_resource type="Script" uid="uid://oyqjvb73r3s6" path="res://scripts/start_screen.gd" id="1_start"]
+[ext_resource type="Texture2D" uid="uid://bqcxcfyvje56g" path="res://assets/splash/splash.jpg" id="2_splash"]
+[ext_resource type="Texture2D" uid="uid://8l7gipnyd67j" path="res://assets/buttons/button_play.jpg" id="3_play"]
+[ext_resource type="Texture2D" uid="uid://nunf348et20" path="res://assets/buttons/button_quit.jpg" id="4_quit"]
 
-[node name="StartScreen" type="Control"]
+[node name="StartScreen" type="Control" unique_id=884608762]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -14,7 +14,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_start")
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Background" type="ColorRect" parent="." unique_id=89948186]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -23,13 +23,13 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="Splash" type="TextureRect" parent="."]
+[node name="Splash" type="TextureRect" parent="." unique_id=2064445869]
 layout_mode = 0
 offset_right = 1080.0
 offset_bottom = 1609.0
 texture = ExtResource("2_splash")
 
-[node name="BottomButtons" type="HBoxContainer" parent="."]
+[node name="BottomButtons" type="HBoxContainer" parent="." unique_id=197827210]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -37,26 +37,26 @@ anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 offset_left = -210.0
-offset_top = -110.0
+offset_top = -150.0
 offset_right = 210.0
-offset_bottom = -10.0
+offset_bottom = -50.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_constants/separation = 20
 alignment = 1
 
-[node name="PlayButton" type="TextureButton" parent="BottomButtons"]
+[node name="PlayButton" type="TextureButton" parent="BottomButtons" unique_id=1745995577]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(200, 100)
 layout_mode = 2
 texture_normal = ExtResource("3_play")
 ignore_texture_size = true
-stretch_mode = 0
+stretch_mode = 4
 
-[node name="QuitButton" type="TextureButton" parent="BottomButtons"]
+[node name="QuitButton" type="TextureButton" parent="BottomButtons" unique_id=339778843]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(200, 100)
 layout_mode = 2
 texture_normal = ExtResource("4_quit")
 ignore_texture_size = true
-stretch_mode = 0
+stretch_mode = 4

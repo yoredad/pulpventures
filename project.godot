@@ -17,6 +17,7 @@ config/icon="res://assets/icons/pulpventures_icon.png"
 
 [autoload]
 
+MessageBus="*res://scripts/message_bus.gd"
 GameState="*res://scripts/game_state.gd"
 
 [display]
@@ -26,8 +27,11 @@ window/size/viewport_height=2400
 window/size/window_width_override=360
 window/size/window_height_override=800
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
 window/handheld/orientation=1
+
+[gui]
+
+theme/custom="res://themes/default_theme.tres"
 
 [rendering]
 
