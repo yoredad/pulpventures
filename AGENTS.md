@@ -20,6 +20,7 @@
 ## Mini game overlay contract
 All mini games follow the same caller/overlay/result contract; do not replace the caller scene with `change_scene_to_file`.
 - Each mini game is a full-screen scene instantiated by its caller and added as a child (`add_child`). The caller stays alive underneath, so its UI, `MessageBus` listeners, and `GameState.hero`/`villain` state persist.
+- When the overlay is destroyed (via `queue_free()`), the caller must unregister from the `MessageBus` for that topic before the scene tree exits, to avoid "invalid previously freed instance" runtime errors. Always call `message_bus.unregister("<topic>", self)` in `_exit_tree()` or an equivalent cleanup function.
 - The overlay root is a full-rect `Control` with `z_index = 100` and `mouse_filter = STOP`, so it draws above and blocks input to the caller. It closes itself with `queue_free()`.
 - Each overlay exposes a `minigame_mode: bool` property local to the overlay. The caller sets it before `add_child()`; do not store it in `GameState`.
   - `minigame_mode = true`: show the mini game's initial/training layout (intro art, message area, Play/Back/About). Used by `mini_games_screen.gd`.
